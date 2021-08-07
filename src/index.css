@@ -34,8 +34,9 @@ body {
 .logo {
   display: flex;
   justify-content: center;
-  width: 100px;
-  margin: 20px auto;
+  height: 100px;
+  width: auto;
+  margin: 30px auto;
 }
 .nav {
   display: flex;
