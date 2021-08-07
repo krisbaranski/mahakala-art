@@ -84,6 +84,7 @@ a:active {
   flex-direction: column;
   justify-content: center;
   margin: 54px auto;
+  color: #d65f1a;
 }
 
 .link {
