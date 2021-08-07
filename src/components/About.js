@@ -3,7 +3,7 @@ const About = () => {
     <div className="container about">
       <div>
         <h3> Mahakala (Black Coat engl., Ber Nag Chen tib.)</h3>
-
+        <br />
         <p>
           “Mahakala is the best known protector in Tibetan Buddhism. Although
           his appearance is powerfully protective, his essence is compassion. He
@@ -17,6 +17,7 @@ const About = () => {
           Panjara-Mahakala (Gor gyi gon po tib.) , who protects tents and
           houses.
         </p>
+        <br />
         <p>
           Mahakala’s body colour expresses different emphases of his activity.
           White forms express pacifying and sometimes increasing activity,
@@ -24,18 +25,20 @@ const About = () => {
           Red forms express fascinating activity, and the “cutting through”
           protective activity is symbolised by blue or black.
         </p>
+        <br />
         <p>
           The two-armed Mahakala Bernagchen is the powerfully protective
           emanation of Diamond in Hand. He is fully in the service of the
           Karmapa and is the main protector of the Karma Kagyu lineage.
         </p>
+        <br />
         <p>
           The invocation of the protector Black Coat, composed by the 8th
           Karmapa Mikyo Dorje, is a fundamental meditation of the Karma Kagyu
           lineage. When practised daily, the invocation protects from obstacles
           and promotes the development of fearlessness.
         </p>
-
+        <br />
         <p>
           The two-armed Mahakala Bernagchen has blue-black skin, and is depicted
           in the Karma Kagyu lineage in a jumping posture on a lotus throne with
@@ -52,7 +55,7 @@ const About = () => {
           such as jewellery made out of bone and skulls, and is surrounded by
           wisdom flames.”
         </p>
-
+        <br />
         <h3>Space & Bliss – Buddhist Statues & Ritual Implements</h3>
       </div>
     </div>
