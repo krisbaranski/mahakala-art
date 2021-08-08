@@ -19,7 +19,7 @@ function App() {
         {/* <Route component={DesktopMenu} /> */}
         {/* <Route component={MobileMenu} /> */}
         <Route
-          path="/"
+          path=""
           exact
           render={props => (
             <section className="container">
