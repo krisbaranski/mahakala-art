@@ -17,8 +17,7 @@ function App() {
         <Header />
         {/* <Route component={DesktopMenu} /> */}
         {/* <Route component={MobileMenu} /> */}
-        <Route path="/" exact render={Home} />
-
+        <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
         <Route path="/form" exact component={Form} />
         <Route path="/impressum" component={Impressum} />
