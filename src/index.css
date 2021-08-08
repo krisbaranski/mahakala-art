@@ -21,6 +21,14 @@ body {
   padding: 30px;
 }
 
+.logo {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 90px;
+  margin: 30px 0;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -55,13 +63,6 @@ body {
 .close:hover {
   background-color: #a17d0841;
   transform: scale(0.98);
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  height: 100px;
-  margin: 30px 0;
 }
 
 .nav {

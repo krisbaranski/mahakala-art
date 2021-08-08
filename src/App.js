@@ -15,7 +15,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <MenuMobile />
+        {/* <MenuMobile /> */}
         <Route path="/home" exact component={Home} />
         <Route path="/about" exact component={About} />
         <Route path="/form" exact component={Form} />
