@@ -1,12 +1,14 @@
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="nav">
         <li>
-          <a href="">Disclaimer | Impressum</a>
+          <Link to="/impressum">Disclaimer | Impressum</Link>
         </li>
         <li>
-          <a href="">Privacy Policy</a>
+          <Link to="/privacy-policy">Privacy Policy</Link>
         </li>
       </div>
       <p className="nav">Copyright &copy; 2021</p>

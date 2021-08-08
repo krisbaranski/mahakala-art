@@ -1,24 +1,25 @@
 import logo from '../logo.png';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <header className="header">
-      <a href="/" className="logo">
+      <Link to="/home" className="logo">
         <img src={logo} alt="mahakala-art" />
-      </a>
+      </Link>
       <div>
         <ul className="nav">
           <li>
-            <a href="/about">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="/form">Form</a>
+            <Link to="/form">Form</Link>
           </li>
           <li>
-            <a href="/statues">Statues</a>
+            <Link to="/statues">Statues</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </div>
