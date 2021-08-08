@@ -33,7 +33,6 @@ function App() {
                 <br />
                 <p>44cm height, porclain plaster form, acrylic and gold</p>
               </div>
-              ) : ('')}
             </section>
           )}
         />
