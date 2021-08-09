@@ -56,7 +56,9 @@ const About = () => {
           wisdom flames.”
         </p>
         <br />
-        <h3>Space & Bliss – Buddhist Statues & Ritual Implements</h3>
+        <span>
+          <em>Space & Bliss – Buddhist Statues & Ritual Implements</em>
+        </span>
       </div>
     </div>
   );
