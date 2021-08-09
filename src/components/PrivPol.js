@@ -3,8 +3,13 @@ const PrivPol = () => {
     <div className="container">
       <h3>Datenschutzerklärung </h3>
       <br />
-      <p>Allgemeiner Hinweis und Pflichtinformationen </p> <br />
-      <p> Benennung der verantwortlichen Stelle</p>
+      <p>
+        <b>Allgemeiner Hinweis und Pflichtinformationen: </b>
+      </p>
+      <br />
+      <p>
+        <b> 1. Benennung der verantwortlichen Stelle</b>
+      </p>
       <br />
       <p>
         Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website
@@ -22,7 +27,11 @@ const PrivPol = () => {
         über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten
         (z.B. Namen, Kontaktdaten o. Ä.).
       </p>
-      <br /> <p>Widerruf Ihrer Einwilligung zur Datenverarbeitung </p> <br />
+      <br />
+      <p>
+        <b> 2. Widerruf Ihrer Einwilligung zur Datenverarbeitung</b>
+      </p>
+      <br />
       <p>
         Nur mit Ihrer ausdrücklichen Einwilligung sind einige Vorgänge der
         Datenverarbeitung möglich. Ein Widerruf Ihrer bereits erteilten
@@ -31,7 +40,10 @@ const PrivPol = () => {
         erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
       </p>
       <br />
-      <p>Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde</p> <br />
+      <p>
+        <b> 3. Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde </b>
+      </p>
+      <br />
       <p>
         Als Betroffener steht Ihnen im Falle eines datenschutzrechtlichen
         Verstoßes ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.
@@ -42,7 +54,9 @@ const PrivPol = () => {
         https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html.
       </p>
       <br />
-      <p>Recht auf Datenübertragbarkeit</p>
+      <p>
+        <b>4. Recht auf Datenübertragbarkeit</b>
+      </p>
       <br />
       <p>
         Ihnen steht das Recht zu, Daten, die wir auf Grundlage Ihrer
@@ -53,7 +67,9 @@ const PrivPol = () => {
         soweit es technisch machbar ist.
       </p>
       <br />
-      <p>Recht auf Auskunft, Berichtigung, Sperrung, Löschung</p>
+      <p>
+        <b> 5. Recht auf Auskunft, Berichtigung, Sperrung, Löschung</b>
+      </p>
       <br />
       <p>
         Sie haben jederzeit im Rahmen der geltenden gesetzlichen Bestimmungen
@@ -65,7 +81,9 @@ const PrivPol = () => {
         die im Impressum aufgeführten Kontaktmöglichkeiten an uns wenden.
       </p>
       <br />
-      <p>Speicherdauer von Beiträgen und Kommentaren </p>
+      <p>
+        <b> 6. Speicherdauer von Beiträgen und Kommentaren </b>
+      </p>
       <br />
       <p>
         Beiträge und Kommentare sowie damit in Verbindung stehende Daten, wie
@@ -83,7 +101,7 @@ const PrivPol = () => {
       </p>
       <br />
       <p>
-        Quelle: Datenschutz-Konfigurator von{' '}
+        Quelle: Datenschutz-Konfigurator von
         <a href="https://www.mein-datenschutzbeauftragter.de/" target="_blank">
           mein-datenschutzbeauftragter.de
         </a>
