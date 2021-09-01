@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const DesktopMenu = () => {
   return (
-    <div>
+    <div className="desktop">
       <ul className="nav">
         <li>
           <Link to="/about">About</Link>

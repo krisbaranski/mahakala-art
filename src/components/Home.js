@@ -8,10 +8,9 @@ const Home = () => {
       </div>
       <div className="home_text">
         <h3>Mahakala </h3>
-        <br />
-        <p>Black Coat (engl.) Ber Nag Chen (tib.)</p>
-        <br />
-        <p>44cm height, porclain plaster form, acrylic and gold</p>
+        <p>Black Coat (eng.) Ber Nag Chen (tib.)</p>
+
+        <p>44cm height, plaster casting, acrylic</p>
       </div>
     </section>
   );

@@ -1,12 +1,12 @@
 const Impressum = () => {
   return (
     <div className="container">
-      <h3>Disclaimer</h3>
-      <br />
-      <p>
-        <b> § 1 Warnhinweis zu Inhalten</b>
-      </p>
-      <br />
+      <h3>
+        Disclaimer
+        <p>
+          <b> § 1 Warnhinweis zu Inhalten</b>
+        </p>
+      </h3>
       <p>
         Die kostenlosen und frei zugänglichen Inhalte dieser Webseite wurden mit
         größtmöglicher Sorgfalt erstellt. Der Anbieter dieser Webseite übernimmt
@@ -19,11 +19,9 @@ const Impressum = () => {
         Anbieter zustande, insoweit fehlt es am Rechtsbindungswillen des
         Anbieters.
       </p>
-      <br />
       <p>
         <b>§ 2 Externe Links</b>
       </p>
-      <br />
       <p>
         Diese Website enthält Verknüpfungen zu Websites Dritter (“externe
         Links”). Diese Websites unterliegen der Haftung der jeweiligen
@@ -36,13 +34,11 @@ const Impressum = () => {
         Verweis oder Link liegenden Inhalte zu Eigen macht. Eine ständige
         Kontrolle der externen Links ist für den Anbieter ohne konkrete Hinweise
         auf Rechtsverstöße nicht zumutbar. Bei Kenntnis von Rechtsverstößen
-        werden jedoch derartige externe Links unverzüglich gelöscht.{' '}
+        werden jedoch derartige externe Links unverzüglich gelöscht.
       </p>
-      <br />
       <p>
         <b>§ 3 Urheber- und Leistungsschutzrechte</b>
       </p>
-      <br />
       <p>
         Die auf dieser Website veröffentlichten Inhalte unterliegen dem
         deutschen Urheber- und Leistungsschutzrecht. Jede vom deutschen Urheber-
@@ -59,24 +55,23 @@ const Impressum = () => {
         Darstellung dieser Website in fremden Frames ist nur mit schriftlicher
         Erlaubnis zulässig.
       </p>
-      <br />
       <p>
         <b>§ 4 Besondere Nutzungsbedingungen</b>
       </p>
-      <br />
       <p>
         Soweit besondere Bedingungen für einzelne Nutzungen dieser Website von
         den vorgenannten Paragraphen abweichen, wird an entsprechender Stelle
         ausdrücklich darauf hingewiesen. In diesem Falle gelten im jeweiligen
         Einzelfall die besonderen Nutzungsbedingungen.
       </p>
-      <br />
-      <h3>Impressum</h3>
-      <br />
-
-      <p>Krzysztof Baranski </p>
-      <p> Charlottenburger Straße 30 </p>
-      <p>13086 Berlin</p>
+      <h3>
+        Impressum
+        <p>
+          Krzysztof Baranski <br />
+          Charlottenburger Straße 30 <br />
+          13086 Berlin
+        </p>
+      </h3>
     </div>
   );
 };
