@@ -1,6 +1,7 @@
 const Contact = props => {
   return (
     <form className="container" onSubmit={props.handleSubmit} method="POST">
+      <p className="construction">!!! UNDER CONSTRUCTION !!!</p>
       <div className="form-group">
         <label>Email</label>
         <input

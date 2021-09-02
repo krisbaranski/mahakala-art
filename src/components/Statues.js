@@ -13,8 +13,8 @@ const Statues = () => {
       <h3>Statues</h3>
 
       <p className="row">
-        Here are presented my statue projects realised for buddhist Centres and
-        collectors worldwide:
+        Here are presented statue projects that i realised for buddhist Centres
+        and collectors worldwide:
       </p>
 
       <div className="row">
@@ -49,7 +49,7 @@ const Statues = () => {
           <b> Milarepa</b>
           <p>
             Great tibetan Yogin <br />
-            40 cm, 2018 <br /> Painted by Tashi Dorje
+            40 cm, 2019 <br /> Painted by Tashi Dorje
             <br />
             Diamond Way Centre Copenhagen, Denmark
           </p>
@@ -76,7 +76,9 @@ const Statues = () => {
           <b>Green Liberatrice</b>, <em> Syama Tara</em> (tib.)
           <p>
             The female Compassion Aspect of all Buddhas <br />
-            86 cm, 2016 <br /> Private Collection
+            86 cm, 2016 <br />
+            Incrusted with turquise stones <br />
+            Private Collection
           </p>
         </element>
       </div>
@@ -87,6 +89,7 @@ const Statues = () => {
           <b>Black Coat</b>, <em>Mahakala</em> (tib.)
           <p>
             Active protection aspect of the Lama. <br /> 96 cm, 2014 <br />
+            Partially painted by Dawa Lhadipa <br />
             Diamond Way Centre Wroclaw, Poland
           </p>
         </element>
@@ -97,7 +100,8 @@ const Statues = () => {
         <element className="col">
           <b>Wisdom of all Buddhas</b>, <em>Yum Chenmo</em> (tib.)
           <p>
-            The female aspect of Buddhas Wisdom. 50 cm height, 2011 <br />
+            The female aspect of Buddhas Wisdom. <br /> 50 cm height, 2011
+            <br />
             Painted by Dawa Lhadipa
             <br />
             Diamond Way Retreat Centre Karma Guen, Spain

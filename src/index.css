@@ -15,6 +15,8 @@ body {
   color: #ddd;
 }
 
+/* FONTS */
+
 h3 {
   font-size: 1.4rem;
   font-weight: 400;
@@ -63,9 +65,12 @@ span {
   margin-left: 10px;
 }
 
-element {
-  margin-top: 20px;
+/* temporary construction font style */
+p.construction {
+  text-align: center;
 }
+
+/* ELEMENTS */
 
 .container {
   max-width: 900px;
@@ -116,7 +121,7 @@ element {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  margin: 10px 0;
+  margin: 20px 0;
   padding: 10px 0;
 }
 
@@ -131,6 +136,10 @@ img.col {
   max-width: 250px;
   object-fit: contain;
   border-radius: 3px;
+}
+
+element {
+  margin-top: 20px;
 }
 
 .form-group {
@@ -152,6 +161,20 @@ img.col {
   outline: none;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px auto;
+  color: #d65f1a;
+}
+
+.footer .nav a {
+  padding: 5px 15px;
+}
+
+/* BUTTONS */
+
 .btn {
   display: flex;
 }
@@ -171,18 +194,6 @@ img.col {
   border: 1px solid #a17d0879;
   font-weight: 700;
   transform: scale(0.98);
-}
-
-.footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 30px auto;
-  color: #d65f1a;
-}
-
-.footer .nav a {
-  padding: 5px 15px;
 }
 
 @media (max-width: 678px) {
