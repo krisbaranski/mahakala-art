@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mahakala-art/static/css/main.a671ee4e.chunk.css",
+    "main.css": "/mahakala-art/static/css/main.4d89b71d.chunk.css",
     "main.js": "/mahakala-art/static/js/main.271f07de.chunk.js",
     "main.js.map": "/mahakala-art/static/js/main.271f07de.chunk.js.map",
     "runtime-main.js": "/mahakala-art/static/js/runtime-main.6c018eab.js",
@@ -8,7 +8,7 @@
     "static/js/2.e58894cc.chunk.js": "/mahakala-art/static/js/2.e58894cc.chunk.js",
     "static/js/2.e58894cc.chunk.js.map": "/mahakala-art/static/js/2.e58894cc.chunk.js.map",
     "index.html": "/mahakala-art/index.html",
-    "static/css/main.a671ee4e.chunk.css.map": "/mahakala-art/static/css/main.a671ee4e.chunk.css.map",
+    "static/css/main.4d89b71d.chunk.css.map": "/mahakala-art/static/css/main.4d89b71d.chunk.css.map",
     "static/js/2.e58894cc.chunk.js.LICENSE.txt": "/mahakala-art/static/js/2.e58894cc.chunk.js.LICENSE.txt",
     "static/media/16.Karmapa.a08b0a1a.jpg": "/mahakala-art/static/media/16.Karmapa.a08b0a1a.jpg",
     "static/media/Dorje_Sempa.2ebd4769.jpg": "/mahakala-art/static/media/Dorje_Sempa.2ebd4769.jpg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.6c018eab.js",
     "static/js/2.e58894cc.chunk.js",
-    "static/css/main.a671ee4e.chunk.css",
+    "static/css/main.4d89b71d.chunk.css",
     "static/js/main.271f07de.chunk.js"
   ]
 }
