@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mahakala-art/static/css/main.a671ee4e.chunk.css",
-    "main.js": "/mahakala-art/static/js/main.5ff61907.chunk.js",
-    "main.js.map": "/mahakala-art/static/js/main.5ff61907.chunk.js.map",
+    "main.js": "/mahakala-art/static/js/main.271f07de.chunk.js",
+    "main.js.map": "/mahakala-art/static/js/main.271f07de.chunk.js.map",
     "runtime-main.js": "/mahakala-art/static/js/runtime-main.6c018eab.js",
     "runtime-main.js.map": "/mahakala-art/static/js/runtime-main.6c018eab.js.map",
     "static/js/2.e58894cc.chunk.js": "/mahakala-art/static/js/2.e58894cc.chunk.js",
@@ -26,6 +26,6 @@
     "static/js/runtime-main.6c018eab.js",
     "static/js/2.e58894cc.chunk.js",
     "static/css/main.a671ee4e.chunk.css",
-    "static/js/main.5ff61907.chunk.js"
+    "static/js/main.271f07de.chunk.js"
   ]
 }
