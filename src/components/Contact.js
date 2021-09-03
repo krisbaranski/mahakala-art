@@ -1,7 +1,14 @@
 const Contact = props => {
   return (
     <form className="container" onSubmit={props.handleSubmit} method="POST">
-      <p className="construction">!!! UNDER CONSTRUCTION !!!</p>
+      <div className="construction">
+        <p>!!! CONTACT FORM UNDER CONSTRUCTION !!!</p> <br />
+        <p>
+          meanwhile write to
+          <a href="mailto:info@mahakala-art.com"> MY EMAIL</a>
+        </p>
+      </div>
+
       <div className="form-group">
         <label>Email</label>
         <input
@@ -21,7 +28,6 @@ const Contact = props => {
           required
         />
       </div>
-
       <div className="form-group">
         <label>Message</label>
         <textarea
