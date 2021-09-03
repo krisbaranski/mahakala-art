@@ -66,7 +66,7 @@ span {
 }
 
 /* temporary construction font style */
-p.construction {
+.construction {
   text-align: center;
 }
 
@@ -197,7 +197,9 @@ element {
 }
 
 @media (max-width: 678px) {
-  /* .desktop {
+  /* Momentarily disabled before cresting function for mobile menu
+   
+  .desktop {
     display: none;
   }
 
