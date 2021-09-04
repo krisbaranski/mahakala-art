@@ -2,6 +2,7 @@ const Contact = props => {
   return (
     <form className="container" onSubmit={props.handleSubmit} method="POST">
       <div className="construction">
+        <p>For any questions, requests, orders you are welcome to contact me</p>
         <p>!!! CONTACT FORM UNDER CONSTRUCTION !!!</p> <br />
         <p>
           meanwhile write to
