@@ -5,10 +5,10 @@ const SingleStatue = props => {
       <element className="col">
         <h5>{props.title}</h5>
         <ul className="statue_info">
-          <li className="statueDescription">{props.statueDescription}</li>
-          <li className="painted_by">{props.paintedBy}</li>
-          <li className="height_year">{props.heightAndYear}</li>
-          <li className="location">{props.location}</li>
+          <li>{props.statueDescription}</li>
+          <li>{props.paintedBy}</li>
+          <li>{props.heightAndYear}</li>
+          <li>{props.location}</li>
         </ul>
       </element>
     </div>
