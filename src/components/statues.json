@@ -1,0 +1,52 @@
+{
+  "statues": [
+    {
+      "image": "../../img/16.Karmapa.jpg",
+      "title": "16th Karmapa, <em>Rangjung Rigpe Dorje (tib.)</em> ",
+      "statueDescription": "Head Teacher of Karma Kamtsang Lineage.",
+      "heightAndYear": "120 cm, 2021",
+      "paintedBy": "",
+      "location": "Diamond Way Buddhist Centre Prague, Czech Republic"
+    },
+    {
+      "image": "../../img/Dorje_Sempa.jpg",
+      "title": "krisbaranski",
+      "statueDescription": "desription",
+      "heightAndYear": "2019",
+      "paintedBy": "Dawa",
+      "location": "Budapest"
+    },
+    {
+      "image": "url",
+      "title": "krisbaranski",
+      "statueDescription": "desription",
+      "heightAndYear": "2019",
+      "paintedBy": "Dawa",
+      "location": "Budapest"
+    },
+    {
+      "image": "url",
+      "title": "krisbaranski",
+      "statueDescription": "desription",
+      "heightAndYear": "2019",
+      "paintedBy": "Dawa",
+      "location": "Budapest"
+    },
+    {
+      "image": "url",
+      "title": "krisbaranski",
+      "statueDescription": "desription",
+      "heightAndYear": "2019",
+      "paintedBy": "Dawa",
+      "location": "Budapest"
+    },
+    {
+      "image": "url",
+      "title": "krisbaranski",
+      "statueDescription": "desription",
+      "heightAndYear": "2019",
+      "paintedBy": "Dawa",
+      "location": "Budapest"
+    }
+  ]
+}
