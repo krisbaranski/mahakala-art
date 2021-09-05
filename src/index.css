@@ -18,10 +18,16 @@ body {
 /* FONTS */
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 2rem;
   padding: 10px 0;
+}
+
+h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 
 p {
@@ -35,13 +41,18 @@ p {
   font-weight: 700;
 }
 
+ul.statue_info li {
+  margin: 0;
+  padding: 5px 0;
+}
+
 li {
   margin: 10px;
   list-style: none;
 }
 
 a {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #a17e08;
   text-decoration: none;
 }
@@ -83,8 +94,8 @@ span {
 .logo {
   display: flex;
   justify-content: center;
-  height: 100px;
-  width: 90px;
+  height: 90px;
+  width: 80px;
   margin: 20px 0;
 }
 
@@ -136,10 +147,6 @@ img.col {
   max-width: 250px;
   object-fit: contain;
   border-radius: 3px;
-}
-
-element {
-  margin-top: 20px;
 }
 
 .form-group {
@@ -197,7 +204,7 @@ element {
 }
 
 @media (max-width: 678px) {
-  /* Momentarily disabled before cresting function for mobile menu
+  /* Momentarily disabled before creating function for mobile menu
    
   .desktop {
     display: none;
