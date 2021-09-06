@@ -17,7 +17,7 @@ function App() {
       <div className="App">
         <Header />
         <Route component={DesktopMenu} />
-        <Route path="/mahakala-art" exact component={Home} />
+        <Route path="/" exact component={Home} />
         <Route path="/about" component={About} />
         <Route path="/form" component={MahakalaForm} />
         <Route path="/statues" component={Statues} />
