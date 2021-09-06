@@ -4,19 +4,22 @@ import maha from '../img/mahakala_108b.jpg';
 const MahakalaForm = () => {
   return (
     <div className="container">
-      <h3>Mahakala form</h3>
-      <p>
-        The main purpose of this mahakala form is to inspire many people with
-        the physical representation of protective qualities of the enlightened
-        mind.
-      </p>
+      <h3>
+        Mahakala form
+        <p>
+          The main purpose of this mahakala form is to inspire many people with
+          the physical representation of protective qualities of the enlightened
+          mind.
+        </p>
+      </h3>
+
       <section className="row">
         <p className="col">
           From 2006 I learn how to build statues in traditional buddhist clay
           technique which originally comes from Himalaya Region (Tibet and
           Ladakh). This Projekt began with a wish. Since years I wanted to build
           a Mahakala form. In this technique it is possible to create
-          3-dimentional statues, ritual dancing masks and reliefs{' '}
+          3-dimentional statues, ritual dancing masks and reliefs
           <em> Tsa-tsa </em>
           (tib.).
           <br />
