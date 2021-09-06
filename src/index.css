@@ -19,13 +19,13 @@ body {
 
 h3 {
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 2rem;
   padding: 10px 0;
 }
 
 h5 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: bold;
   padding-bottom: 10px;
 }
