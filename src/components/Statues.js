@@ -34,8 +34,7 @@ const Statues = () => {
   return (
     <div className="container">
       <h3>Statues</h3>
-
-      <p className="row">
+      <p>
         Here are presented statue projects that i realised for buddhist Centres
         and collectors worldwide:
       </p>
