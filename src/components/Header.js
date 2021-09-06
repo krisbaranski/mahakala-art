@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      <Link to="/mahakala-art" className="logo">
+      <Link to="/" className="logo">
         <img src={logo} alt="mahakala-art" />
       </Link>
       <div className="mobile">
