@@ -47,7 +47,7 @@ const statueData = [
   {
     image:
       'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-    title: 'Black Coat, Mahakala (tib.)',
+    title: 'Black Coat, Bernagchen (tib.)',
     statueDescription: 'Active protection aspect of the Lama.',
     paintedBy: 'Partially painted by Dawa Lhadipa',
     heightAndYear: '96 cm, 2014',
