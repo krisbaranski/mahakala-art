@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #141d25;
+  background-color: #0d151d;
   color: #ddd;
 }
 
@@ -251,6 +251,10 @@ img.col {
   .about {
     flex-direction: column;
     flex: 1 1;
+  }
+
+  .nav li {
+    margin: 10px 7px;
   }
 
   p.col {
