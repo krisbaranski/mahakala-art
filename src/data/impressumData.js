@@ -24,6 +24,7 @@ const impressumData = [
       'Soweit besondere Bedingungen für einzelne Nutzungen dieser Website von den vorgenannten Paragraphen abweichen, wird an entsprechender Stelle ausdrücklich darauf hingewiesen. In diesem Falle gelten im jeweiligen Einzelfall die besonderen Nutzungsbedingungen.',
   },
   {
+    id: 4,
     title: 'Impressum',
     content: 'Krzysztof Baranski, Charlottenburger Straße 30, 13086 Berlin',
   },
