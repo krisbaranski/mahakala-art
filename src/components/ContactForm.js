@@ -1,10 +1,12 @@
 const ContactForm = props => {
   return (
     <div className="construction">
-      <p>
+      <h5>
         For any questions, requests and orders you are welcome to
-        <a href="mailto:info@mahakala-art.com"> contact me</a>
-      </p>
+        <p>
+          <a href="mailto:info@mahakala-art.com"> contact me</a>
+        </p>
+      </h5>
 
       {/* !!! CONTACT FORM UNDER CONSTRUCTION !!! */}
       {/* 
