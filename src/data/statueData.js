@@ -20,6 +20,7 @@ const statueData = [
     location: 'Diamond Way Buddhist Centre Budapest, Hungary',
   },
   {
+    id: 2,
     image:
       'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
     title: 'Milarepa ',
@@ -29,6 +30,7 @@ const statueData = [
     location: 'Diamond Way Centre Copenhagen, Denmark',
   },
   {
+    id: 3,
     image:
       'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
     title: 'Buddha of Limitless Light, Opame (tib.)',
@@ -38,6 +40,7 @@ const statueData = [
     location: 'Diamond Way Buddhist Centre Munich, Germany',
   },
   {
+    id: 4,
     image:
       'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
     title: 'Green Liberatrice, Syama Tara (tib.)',
@@ -47,6 +50,7 @@ const statueData = [
     location: 'Private Collection',
   },
   {
+    id: 5,
     image:
       'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
     title: 'Black Coat, Bernagchen (tib.)',
@@ -56,6 +60,7 @@ const statueData = [
     location: 'Diamond Way Centre Wroclaw, Poland',
   },
   {
+    id: 6,
     image:
       'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
     title: 'Wisdom of all Buddhas, Yum Chenmo (tib.)',
