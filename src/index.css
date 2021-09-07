@@ -8,6 +8,7 @@
   padding: 0;
   overflow: auto;
   font-family: 'Lato', sans-serif;
+  letter-spacing: 0.4px;
 }
 
 body {
@@ -79,6 +80,7 @@ span {
 /* temporary construction font style */
 .construction {
   text-align: center;
+  margin: 100px 0;
 }
 
 /* ELEMENTS */
