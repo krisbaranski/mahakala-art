@@ -3,6 +3,7 @@ const SingleImpressum = props => {
     <div>
       <h5>{props.title}</h5>
       <p>{props.content}</p>
+      <p>{props.id}</p>
     </div>
   );
 };

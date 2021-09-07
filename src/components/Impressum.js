@@ -7,7 +7,13 @@ const Impressum = () => {
       <h3>Disclaimer</h3>
 
       {impressumData.map(data => {
-        return <SingleImpressum title={data.title} content={data.content} />;
+        return (
+          <SingleImpressum
+            title={data.title}
+            content={data.content}
+            key={data.id}
+          />
+        );
       })}
     </div>
   );

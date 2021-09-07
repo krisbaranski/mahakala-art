@@ -15,6 +15,7 @@ const PrivacyPolicy = () => {
             title={policy.title}
             content={policy.content}
             address={policy.address}
+            key={policy.id}
           />
         );
       })}
