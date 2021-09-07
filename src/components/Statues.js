@@ -44,6 +44,7 @@ const Statues = () => {
       {statueData.map(statue => {
         return (
           <SingleStatue
+            key={statue.id}
             image={statue.image}
             title={statue.title}
             statueDescription={statue.statueDescription}

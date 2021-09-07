@@ -1,5 +1,6 @@
 const statueData = [
   {
+    id: 0,
     image:
       'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
     title: '16th Karmapa, Rangjung Rigpe Dorje (tib.)',
@@ -9,6 +10,7 @@ const statueData = [
     location: 'Diamond Way Buddhist Centre Prague, Czech Republic',
   },
   {
+    id: 1,
     image:
       'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
     title: 'Diamond Mind, Dorje Sempa (tib.)',

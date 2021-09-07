@@ -23,12 +23,14 @@ h3 {
   font-weight: bold;
   line-height: 2rem;
   padding: 10px 0;
+  margin-bottom: 10px;
 }
 
 h5 {
   font-size: 1.1rem;
   font-weight: bold;
   padding-bottom: 10px;
+  margin-top: 10px;
 }
 
 p {
@@ -206,6 +208,10 @@ img.col {
 }
 
 @media (max-width: 678px) {
+  * {
+    font-size: 14px;
+  }
+
   /* Momentarily disabled before creating function for mobile menu
    
   .desktop {
@@ -246,10 +252,14 @@ img.col {
     flex-direction: column;
     flex: 1 1;
   }
-  .col {
+
+  p.col {
     width: 100%;
   }
-  img.col {
+
+  img.col,
+  section.col {
+    width: 100%;
     max-width: 300px;
     margin: 20px auto;
   }

@@ -8,7 +8,7 @@ import Statues from './components/Statues';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import Impressum from './components/Impressum';
-import PrivatePolicy from './components/PrivatePolicy';
+import PrivacyPolicy from './components/PrivacyPolicy';
 import DesktopMenu from './components/DesktopMenu';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         <Route path="/statues" component={Statues} />
         <Route path="/contact" component={ContactForm} />
         <Route path="/impressum" component={Impressum} />
-        <Route path="/privacy-policy" component={PrivatePolicy} />
+        <Route path="/privacypolicy" component={PrivacyPolicy} />
         <Footer />
       </div>
     </Router>

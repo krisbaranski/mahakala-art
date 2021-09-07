@@ -1,8 +1,9 @@
 const SingleStatue = props => {
   return (
     <div className="row">
+      <p>{props.id}</p>
       <img src={props.image} alt="" className="col" />
-      <element className="col">
+      <section className="col">
         <h5>{props.title}</h5>
         <ul className="statue_info">
           <li>{props.statueDescription}</li>
@@ -10,7 +11,7 @@ const SingleStatue = props => {
           <li>{props.heightAndYear}</li>
           <li>{props.location}</li>
         </ul>
-      </element>
+      </section>
     </div>
   );
 };

@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="nav">
         <Link to="/impressum">Disclaimer | Impressum</Link>
-        <Link to="/privacy-policy">Privacy Policy</Link>
+        <Link to="/privacypolicy">Privacy Policy</Link>
       </div>
       <p className="nav">Copyright &copy; 2021</p>
     </footer>
