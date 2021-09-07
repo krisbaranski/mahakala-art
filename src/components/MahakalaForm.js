@@ -16,7 +16,7 @@ const MahakalaForm = () => {
       <section className="row">
         <p className="col">
           From 2006 I learn how to build statues in traditional buddhist clay
-          technique which originally comes from Himalaya Region (Tibet and
+          technique which originally comes from Himalaya Region (Tibet, Bhutan,
           Ladakh). This Projekt began with a wish. Since years I wanted to build
           a Mahakala form. In this technique it is possible to create
           3-dimentional statues, ritual dancing masks and reliefs
