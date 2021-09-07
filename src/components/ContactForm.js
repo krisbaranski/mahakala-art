@@ -1,16 +1,15 @@
 const ContactForm = props => {
   return (
-    <form className="container" onSubmit={props.handleSubmit} method="POST">
-      <div className="construction">
-        <p>For any questions, requests, orders you are welcome to contact me</p>
-        <p>!!! CONTACT FORM UNDER CONSTRUCTION !!!</p> <br />
-        <p>
-          meanwhile write to
-          <a href="mailto:info@mahakala-art.com"> MY EMAIL</a>
-        </p>
-      </div>
+    <div className="construction">
+      <p>
+        For any questions, requests and orders you are welcome to
+        <a href="mailto:info@mahakala-art.com"> contact me</a>
+      </p>
 
-      <div className="form-group">
+      {/* !!! CONTACT FORM UNDER CONSTRUCTION !!! */}
+      {/* 
+        <form className="container" onSubmit={props.handleSubmit} method="POST">
+        <div className="form-group">
         <label>Email</label>
         <input
           type="email"
@@ -43,7 +42,8 @@ const ContactForm = props => {
           Submit
         </button>
       </div>
-    </form>
+    </form> */}
+    </div>
   );
 };
 
