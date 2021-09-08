@@ -1,4 +1,5 @@
-import mahakala from '../img/mahakala-web.png';
+import React from 'react';
+import mahakala from '../img/mahakala_web.png';
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
       </div>
       <div className="home_text">
         <h3>Mahakala </h3>
-        <p>Black Coat (eng.) Ber Nag Chen (tib.)</p>
+        <p>Black Coat (eng) Ber Nag Chen (tib)</p>
         <p>44cm height, plaster casting, acrylic</p>
       </div>
     </section>

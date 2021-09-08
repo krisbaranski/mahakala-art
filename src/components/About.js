@@ -1,3 +1,5 @@
+import React from 'react';
+
 const About = () => {
   return (
     <div className="container about">
@@ -5,7 +7,7 @@ const About = () => {
         <h3>
           Mahakala
           <p>
-            <em>Black Coat</em> (eng.) <em>Ber Nag Chen</em> (tib.)
+            <em>Black Coat</em> (eng) <em>Ber Nag Chen</em> (tib)
           </p>
         </h3>
         <p>
@@ -13,13 +15,12 @@ const About = () => {
           his appearance is powerfully protective, his essence is compassion. He
           conquers hindrances that may appear on the path to enlightenment, and
           appears in various forms, with two, four or six arms. Two-armed forms
-          are emanations of Vajrapani (Chan na Dor je tib., Diamond in Hand
-          engl.), four-armed forms are emanations of Manjushri (Jam pal yang
-          tib., Wisdom Buddha engl.) and six-armed forms are emanations of
-          Avalokiteshvara (Chen re sig tib., Loving Eyes engl.). A special form
-          of the two-armed Mahakala , particularly honoured in Mongolia, is the
-          Panjara-Mahakala (Gor gyi gon po tib.) , who protects tents and
-          houses.
+          are emanations of Vajrapani (Diamond in Hand eng, Chan na Dor je tib),
+          four-armed forms are emanations of Manjushri (Wisdom Buddha eng, Jam
+          pal yang tib) and six-armed forms are emanations of Avalokiteshvara
+          (Loving Eyes eng, Chen re sig tib). A special form of the two-armed
+          Mahakala, particularly honoured in Mongolia, is the Panjara-Mahakala
+          (Gor gyi gon po tib), who protects tents and houses.
         </p>
         <p>
           Mahakala’s body colour expresses different emphases of his activity.
@@ -44,10 +45,10 @@ const About = () => {
           in the Karma Kagyu lineage in a jumping posture on a lotus throne with
           a sun disk. The human being (sometimes two) he tramples under his feet
           show that he conquered all disturbances and hindrances. The right hand
-          of this powerful form is raised and holds a chopping-knife with the
-          blade turned away from him. In his left hand he holds a skull-bowl
+          of this powerful form is raised and holds a chopping knife with the
+          blade turned away from him. In his left hand he holds a skull bowl
           filled with the blood of the ego in front of his heart. His head is
-          one-third of his entire height, and topped by flame-like hair standing
+          one third of his entire height, and topped by flame like hair standing
           on end and a crown of five skulls with a dorje at its peak. Above his
           two natural eyes and bushy eyebrows he bears a vertical wisdom eye on
           his forehead. His snarling mouth shows four fangs, and is framed by a
@@ -56,6 +57,7 @@ const About = () => {
           wisdom flames.”
         </p>
         <span>
+          from
           <em>Space & Bliss – Buddhist Statues & Ritual Implements</em>
         </span>
       </div>
