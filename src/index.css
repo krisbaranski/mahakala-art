@@ -71,8 +71,10 @@ a:active {
 }
 
 span {
+  display: flex;
+  justify-content: flex-end;
   font-size: 1.3rem;
-  text-align: right;
+  margin-top: 20px;
 }
 
 .form-group label {
@@ -250,7 +252,6 @@ img.col {
   }
   .about {
     flex-direction: column;
-    flex: 1 1;
   }
 
   .nav li {
