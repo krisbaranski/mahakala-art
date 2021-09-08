@@ -79,10 +79,10 @@ span {
   margin-left: 10px;
 }
 
-/* temporary construction font style */
 .construction {
   text-align: center;
-  margin: 100px 0;
+  margin: 100px auto;
+  max-width: 320px;
 }
 
 /* ELEMENTS */
