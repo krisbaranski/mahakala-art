@@ -1,3 +1,5 @@
+import React from 'react';
+
 const SingleStatue = props => {
   return (
     <div className="row">

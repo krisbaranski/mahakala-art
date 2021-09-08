@@ -1,3 +1,4 @@
+import React from 'react';
 import many from '../img/many.jpg';
 import maha from '../img/mahakala_108b.jpg';
 

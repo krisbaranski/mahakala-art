@@ -1,3 +1,4 @@
+import React from 'react';
 import SinglePolicy from './SinglePolicy';
 import policyData from '../data/policyData';
 

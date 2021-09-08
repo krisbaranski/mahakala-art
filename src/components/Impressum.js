@@ -1,3 +1,4 @@
+import React from 'react';
 import SingleImpressum from './SingleImpressum';
 import impressumData from '../data/impressumData';
 

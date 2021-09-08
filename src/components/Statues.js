@@ -1,3 +1,4 @@
+import React from 'react';
 import SingleStatue from './SingleStatue';
 import statueData from '../data/statueData';
 
