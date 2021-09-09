@@ -2,7 +2,7 @@ const statueData = [
   {
     id: 0,
     image:
-      'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      'https://images.ctfassets.net/x9ncw0vro2xo/6Wxp0lQLRzmW9IwMQfJkRK/034919258e90ddf4acc8ee92446f27ed/16Karmapa.jpg',
     title: '16th Karmapa, Rangjung Rigpe Dorje (tib.)',
     statueDescription: 'Head Teacher of Karma Kamtsang Lineage.',
     paintedBy: '',
@@ -12,7 +12,7 @@ const statueData = [
   {
     id: 1,
     image:
-      'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      'https://images.ctfassets.net/x9ncw0vro2xo/4m2NXWozX7vO9Kz9uValSI/8e1ac697cb965986726a6a6d5a2df0ff/Dorje_Sempa.jpg',
     title: 'Diamond Mind, Dorje Sempa (tib.)',
     statueDescription: 'Purification aspect of Buddhas Compassion and Wisdom.',
     paintedBy: 'Painted by Dawa Lhadipa',
@@ -22,7 +22,7 @@ const statueData = [
   {
     id: 2,
     image:
-      'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      'https://images.ctfassets.net/x9ncw0vro2xo/4bFX9M9VV7Sql9k2tgLPi8/8034316dab02bfc2e7c14154a0f3205b/Mila.jpg',
     title: 'Milarepa ',
     statueDescription: ' Great tibetan Yogin',
     paintedBy: 'Painted by Tashi Dorje',
@@ -32,7 +32,7 @@ const statueData = [
   {
     id: 3,
     image:
-      'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      'https://images.ctfassets.net/x9ncw0vro2xo/5lif2Ta10rs3x6SuHTXsbf/e3a759666f04676a25d90d9265c3c6df/Opame.png',
     title: 'Buddha of Limitless Light, Opame (tib.)',
     statueDescription: 'One of five Buddha Families',
     paintedBy: 'Painted by Silke Neukirchen',
@@ -42,7 +42,7 @@ const statueData = [
   {
     id: 4,
     image:
-      'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      'https://images.ctfassets.net/x9ncw0vro2xo/7GyBQdfyC1p9Hdx4xmvcoN/c74b3eb134935ce61e80b5c0460b5c6c/Green_Tara.jpg',
     title: 'Green Liberatrice, Syama Tara (tib.)',
     statueDescription: 'The female Compassion Aspect of all Buddhas',
     paintedBy: 'Incrusted with turquise stones',
@@ -52,7 +52,7 @@ const statueData = [
   {
     id: 5,
     image:
-      'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      'https://images.ctfassets.net/x9ncw0vro2xo/6nsCXs1EELUs2Wuhvhoh0f/fc2d703c476aedd7c8819213ee906054/Maha_Wroc.jpg',
     title: 'Black Coat, Bernagchen (tib.)',
     statueDescription: 'Active protection aspect of the Lama.',
     paintedBy: 'Partially painted by Dawa Lhadipa',
@@ -62,7 +62,7 @@ const statueData = [
   {
     id: 6,
     image:
-      'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
+      'https://images.ctfassets.net/x9ncw0vro2xo/PIjMWBbSA1t2xVdO3z5bO/c0e888a12a2cfd957b4bf7ae694509d7/Yum_Chenmo.jpg',
     title: 'Wisdom of all Buddhas, Yum Chenmo (tib.)',
     statueDescription: 'The female aspect of Buddhas Wisdom.',
     paintedBy: 'Painted by Dawa Lhadipa',
