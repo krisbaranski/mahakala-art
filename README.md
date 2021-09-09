@@ -12,20 +12,18 @@ Soon also contact form will be ready.
 
 ## Tech Stack
 
-- React JS
+- React JS (JSX)
 - CSS3
-- JSX
 - API requests (async/await)
-- JSON data
+- Supabase, Contentful Database
 
 ## Topics
 
+- Single Page App with JSX
 - using DNS (A-Record) for Domain on Strato
 - deployment on Vercel for production
 - Version Control on [GitHub](https://github.com/krisbaranski/mahakala-art)
-- Database (images and JSON Data) on Supabase
-- Single Page App with JSX 
 
 ## Credits
 
-Big Thanks to [@DavidKuda](https://github.com/DavidKuda)
+Big Thanks for suport to [@DavidKuda](https://github.com/DavidKuda)
