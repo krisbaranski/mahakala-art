@@ -42,19 +42,21 @@ const Statues = () => {
         </p>
       </h3>
 
-      {statueData.map(statue => {
-        return (
-          <SingleStatue
-            key={statue.id}
-            image={statue.image}
-            title={statue.title}
-            statueDescription={statue.statueDescription}
-            paintedBy={statue.paintedBy}
-            heightAndYear={statue.heightAndYear}
-            location={statue.location}
-          />
-        );
-      })}
+      {statueData
+        .map(statue => {
+          return (
+            <SingleStatue
+              key={statue.id}
+              image={statue.image}
+              title={statue.title}
+              statueDescription={statue.statueDescription}
+              paintedBy={statue.paintedBy}
+              heightAndYear={statue.heightAndYear}
+              location={statue.location}
+            />
+          );
+        })
+        .reverse()}
     </div>
   );
 };
