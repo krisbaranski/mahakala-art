@@ -1,5 +1,6 @@
 import React from 'react';
 import mahakala from '../img/mahakala_web.png';
+// import mahakala from 'https://images.ctfassets.net/x9ncw0vro2xo/6nsCXs1EELUs2Wuhvhoh0f/fc2d703c476aedd7c8819213ee906054/Maha_Wroc.jpg';
 
 const Home = () => {
   return (

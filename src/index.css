@@ -44,9 +44,14 @@ p {
   font-weight: 700;
 }
 
+.statue_info h5 {
+  margin-bottom: 15px;
+}
+
 ul.statue_info li {
   margin: 0;
-  padding: 5px 0;
+  line-height: 1.6rem;
+  padding: 0;
 }
 
 li {
@@ -82,9 +87,14 @@ span {
 }
 
 .construction {
-  text-align: center;
   margin: 100px auto;
-  max-width: 320px;
+  line-height: 30px;
+  max-width: 400px;
+}
+
+.construction a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
 }
 
 /* ELEMENTS */
@@ -128,9 +138,12 @@ span {
 }
 
 .home_text {
-  margin: 30px auto;
-  padding: 10px;
+  margin-top: 30px;
   text-align: center;
+}
+
+.home_text p {
+  line-height: 0.6rem;
 }
 
 .row {
