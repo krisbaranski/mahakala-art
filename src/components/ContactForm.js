@@ -3,13 +3,11 @@ import React from 'react';
 const ContactForm = props => {
   return (
     <div>
-      <h5 className="construction">
+      <p className="construction">
         For any questions, requests and orders you are welcome to
-        <p>
-          <a href="mailto:info@mahakala-art.com"> contact me</a>
-        </p>
-        !!! CONTACT FORM UNDER CONSTRUCTION !!!
-      </h5>
+        <a href="mailto:info@mahakala-art.com"> contact me</a> <br />
+        <h5>!!! CONTACT FORM UNDER CONSTRUCTION !!!</h5>
+      </p>
     </div>
   );
 };

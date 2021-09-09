@@ -281,6 +281,11 @@ img.col {
     max-width: 300px;
     margin: 20px auto;
   }
+
+  .construction {
+    padding: 15px;
+  }
+
   .footer {
     flex-direction: column;
     text-align: center;
