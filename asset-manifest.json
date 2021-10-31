@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.225bd2d7.chunk.css",
-    "main.js": "/static/js/main.a08e4766.chunk.js",
-    "main.js.map": "/static/js/main.a08e4766.chunk.js.map",
+    "main.js": "/static/js/main.0fab94c1.chunk.js",
+    "main.js.map": "/static/js/main.0fab94c1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5732f33c.js",
     "runtime-main.js.map": "/static/js/runtime-main.5732f33c.js.map",
-    "static/js/2.0d27318b.chunk.js": "/static/js/2.0d27318b.chunk.js",
-    "static/js/2.0d27318b.chunk.js.map": "/static/js/2.0d27318b.chunk.js.map",
+    "static/js/2.5d67fff2.chunk.js": "/static/js/2.5d67fff2.chunk.js",
+    "static/js/2.5d67fff2.chunk.js.map": "/static/js/2.5d67fff2.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.225bd2d7.chunk.css.map": "/static/css/main.225bd2d7.chunk.css.map",
-    "static/js/2.0d27318b.chunk.js.LICENSE.txt": "/static/js/2.0d27318b.chunk.js.LICENSE.txt",
+    "static/js/2.5d67fff2.chunk.js.LICENSE.txt": "/static/js/2.5d67fff2.chunk.js.LICENSE.txt",
     "static/media/logo.8f97f4c4.png": "/static/media/logo.8f97f4c4.png",
     "static/media/mahakala_108b.4e3c65fe.jpg": "/static/media/mahakala_108b.4e3c65fe.jpg",
     "static/media/mahakala_web.4409c8f7.png": "/static/media/mahakala_web.4409c8f7.png",
@@ -17,8 +17,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5732f33c.js",
-    "static/js/2.0d27318b.chunk.js",
+    "static/js/2.5d67fff2.chunk.js",
     "static/css/main.225bd2d7.chunk.css",
-    "static/js/main.a08e4766.chunk.js"
+    "static/js/main.0fab94c1.chunk.js"
   ]
 }
