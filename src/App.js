@@ -11,22 +11,25 @@ import Footer from './components/Footer';
 import Impressum from './components/Impressum';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import DesktopMenu from './components/DesktopMenu';
+import ScrollToTop from '/components/ScrollToTop';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Header />
-        <Route component={DesktopMenu} />
-        <Route path="/" exact component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/form" component={MahakalaForm} />
-        <Route path="/statues" component={Statues} />
-        <Route path="/contact" component={ContactForm} />
-        <Route path="/impressum" component={Impressum} />
-        <Route path="/privacypolicy" component={PrivacyPolicy} />
-        <Footer />
-      </div>
+      <ScrollToTop>
+        <div className="App">
+          <Header />
+          <Route component={DesktopMenu} />
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/form" component={MahakalaForm} />
+          <Route path="/statues" component={Statues} />
+          <Route path="/contact" component={ContactForm} />
+          <Route path="/impressum" component={Impressum} />
+          <Route path="/privacypolicy" component={PrivacyPolicy} />
+          <Footer />
+        </div>
+      </ScrollToTop>
     </Router>
   );
 }

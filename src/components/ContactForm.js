@@ -20,6 +20,7 @@ const ContactForm = props => {
 //             className="form-control"
 //             aria-describedby="emailHelp"
 //             placeholder="your email adress"
+//             autocomplete = 'off';
 //             required
 //           />
 //         </div>
@@ -29,6 +30,7 @@ const ContactForm = props => {
 //             type="text"
 //             className="form-control"
 //             placeholder="your subject"
+//             autocomplete = 'off';
 //             required
 //           />
 //         </div>
@@ -38,6 +40,7 @@ const ContactForm = props => {
 //             className="form-control"
 //             rows="10"
 //             placeholder="your message"
+//             autocomplete = 'off';
 //             required
 //           ></textarea>
 //         </div>
@@ -102,6 +105,7 @@ const ContactForm = props => {
 //               aria-describedby="emailHelp"
 //               value={this.state.email}
 //               placeholder="your email address"
+//             autocomplete = 'off';
 //               onChange={this.onEmailChange.bind(this)}
 //             />
 //           </div>
@@ -112,6 +116,7 @@ const ContactForm = props => {
 //               className="form-control"
 //               value={this.state.subject}
 //               placeholder="your subject"
+//             autocomplete = 'off';
 //               onChange={this.onSubjectChange.bind(this)}
 //             />
 //           </div>
@@ -123,6 +128,7 @@ const ContactForm = props => {
 //               rows="5"
 //               value={this.state.message}
 //               placeholder="your message"
+//             autocomplete = 'off';
 //               onChange={this.onMessageChange.bind(this)}
 //             />
 //           </div>
