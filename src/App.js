@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
@@ -17,18 +17,20 @@ function App() {
   return (
     <Router>
       <ScrollToTop>
-        <div className="App">
-          <Header />
-          <Route component={DesktopMenu} />
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/form" component={MahakalaForm} />
-          <Route path="/statues" component={Statues} />
-          <Route path="/contact" component={ContactForm} />
-          <Route path="/impressum" component={Impressum} />
-          <Route path="/privacypolicy" component={PrivacyPolicy} />
-          <Footer />
-        </div>
+        <Switch>
+          <div className="App">
+            <Header />
+            <Route component={DesktopMenu} />
+            <Route path="/" exact component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/form" component={MahakalaForm} />
+            <Route path="/statues" component={Statues} />
+            <Route path="/contact" component={ContactForm} />
+            <Route path="/impressum" component={Impressum} />
+            <Route path="/privacypolicy" component={PrivacyPolicy} />
+            <Footer />
+          </div>
+        </Switch>
       </ScrollToTop>
     </Router>
   );
