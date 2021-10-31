@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 import Impressum from './components/Impressum';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import DesktopMenu from './components/DesktopMenu';
-import ScrollToTop from '/components/ScrollToTop';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
