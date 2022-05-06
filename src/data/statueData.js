@@ -72,7 +72,7 @@ const statueData = [
   {
     id: 7,
     image:
-      'https://images.ctfassets.net/x9ncw0vro2xo/6vBqMwWvn6ySjjDt6nNfGr/b455fd244083598199e4cd4d95b8389d/Tara01.jpg?h=250',
+      'https://images.ctfassets.net/x9ncw0vro2xo/1Nf9rmN75GRcY92hE6aGgX/495171a2759dd594cda52ea880aaeb18/WhiteTara.jpg',
     title: 'White Liberatrice, Sita Tara (tib.)',
     statueDescription: 'Protecting and long life aspect of the Buddha.',
     paintedBy: '',
