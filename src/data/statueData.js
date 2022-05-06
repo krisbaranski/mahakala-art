@@ -69,6 +69,16 @@ const statueData = [
     heightAndYear: '120 cm, 2021',
     location: 'Diamond Way Buddhist Centre Prague, Czech Republic',
   },
+  {
+    id: 7,
+    image:
+      'https://images.ctfassets.net/x9ncw0vro2xo/6vBqMwWvn6ySjjDt6nNfGr/b455fd244083598199e4cd4d95b8389d/Tara01.jpg?h=250',
+    title: 'White Liberatrice, Sita Tara (tib.)',
+    statueDescription: 'Protecting and long life aspect of the Buddha.',
+    paintedBy: '',
+    heightAndYear: '86 cm, 2022',
+    location: 'Diamond Way Buddhist Centre Mainz, Germany',
+  },
 ];
 
 export default statueData;
