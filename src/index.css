@@ -67,7 +67,7 @@ a {
 
 a:hover {
   color: #d65f1a;
-  transform: scale(0.98);
+  transform: scale(1.1);
 }
 
 a:active {
@@ -87,9 +87,9 @@ span {
 }
 
 .construction {
-  margin: 100px auto;
+  margin: 70px auto 0;
   line-height: 30px;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .construction a {
@@ -222,6 +222,18 @@ img.col {
   transform: scale(0.98);
 }
 
+.order {
+  background-color: #d65f1a3b;
+  margin-left: 10px;
+  padding: 4px 10px 8px;
+  border-radius: 5px;
+}
+
+.order:hover {
+  background-color: #a17e08;
+  color: #fff;
+  transform: scale(1.1);
+}
 @media (max-width: 678px) {
   * {
     font-size: 14px;
