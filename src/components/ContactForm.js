@@ -12,9 +12,9 @@ const ContactForm = props => {
       </p>
       <br />
       <br />
-      <h5 className="contact construction">
+      {/* <h5 className="contact construction">
         !!! CONTACT FORM UNDER CONSTRUCTION !!!
-      </h5>
+      </h5> */}
       {/*       
       Please fill out
         the contact form below
