@@ -87,7 +87,7 @@ span {
 }
 
 .construction {
-  margin: 70px auto 0;
+  margin-top: 70px;
   line-height: 30px;
   max-width: 500px;
 }
@@ -224,16 +224,25 @@ img.col {
 
 .order {
   background-color: #d65f1a3b;
-  margin-left: 10px;
+  margin-left: 15px;
   padding: 4px 10px 8px;
-  border-radius: 5px;
+  border-radius: 7px;
+  cursor: pointer;
 }
 
 .order:hover {
   background-color: #a17e08;
   color: #fff;
-  transform: scale(1.1);
+  transform: scale(0.98);
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+}
+
 @media (max-width: 678px) {
   * {
     font-size: 14px;

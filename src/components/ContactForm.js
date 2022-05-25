@@ -2,57 +2,64 @@ import React from 'react';
 
 const ContactForm = props => {
   return (
-    <div>
-      <p className="construction">
-        For any questions, requests and orders you are welcome to
-        <a href="mailto:info@mahakala-art.com"> contact me</a> <br />
-        <h5>!!! CONTACT FORM UNDER CONSTRUCTION !!!</h5>
+    <div className="container">
+      <p className="contact construction">
+        If you have any questions, requests or orders, you are welcome to
+        <br />
+        <a href="mailto:info@mahakala-art.com" className="contact order">
+          contact me
+        </a>
       </p>
+      <br />
+      <br />
+      <h5 className="contact construction">
+        !!! CONTACT FORM UNDER CONSTRUCTION !!!
+      </h5>
+      {/*       
+      Please fill out
+        the contact form below
+      <form className="container" onSubmit={props.handleSubmit} method="POST">
+        <div className="form-group">
+          <label>Email</label>
+          <input
+            type="email"
+            className="form-control"
+            aria-describedby="emailHelp"
+            placeholder="your email adress"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label>Subject</label>
+          <input
+            type="text"
+            className="form-control"
+            placeholder="your subject"
+            autocomplete="off"
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label>Message</label>
+          <textarea
+            className="form-control"
+            rows="10"
+            placeholder="your message"
+            autocomplete="off"
+            required
+          ></textarea>
+        </div>
+        <div className="form-group">
+          <button type="submit" className="btn btn-primary">
+            Submit
+          </button>
+        </div>
+      </form>
+       */}
     </div>
   );
 };
-
-//       <form className="container" onSubmit={props.handleSubmit} method="POST">
-//         <div className="form-group">
-//           <label>Email</label>
-//           <input
-//             type="email"
-//             className="form-control"
-//             aria-describedby="emailHelp"
-//             placeholder="your email adress"
-//             autocomplete = 'off';
-//             required
-//           />
-//         </div>
-//         <div className="form-group">
-//           <label>Subject</label>
-//           <input
-//             type="text"
-//             className="form-control"
-//             placeholder="your subject"
-//             autocomplete = 'off';
-//             required
-//           />
-//         </div>
-//         <div className="form-group">
-//           <label>Message</label>
-//           <textarea
-//             className="form-control"
-//             rows="10"
-//             placeholder="your message"
-//             autocomplete = 'off';
-//             required
-//           ></textarea>
-//         </div>
-//         <div className="form-group">
-//           <button type="submit" className="btn btn-primary">
-//             Submit
-//           </button>
-//         </div>
-//       </form>
-//     </div>
-//   );
-// };
 
 // export default ContactForm;
 // import React from 'react';
