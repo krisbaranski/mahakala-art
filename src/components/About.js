@@ -3,12 +3,12 @@ import React from 'react';
 const About = () => {
   return (
     <div className="container">
-      <h3>
+      <h1>
         Mahakala
         <p>
           <em>Black Coat</em> (eng) <em>Ber Nag Chen</em> (tib)
         </p>
-      </h3>
+      </h1>
       <p>
         “Mahakala is the best known protector in Tibetan Buddhism. Although his
         appearance is powerfully protective, his essence is compassion. He

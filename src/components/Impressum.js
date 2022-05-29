@@ -5,7 +5,7 @@ import impressumData from '../data/impressumData';
 const Impressum = () => {
   return (
     <div className="container">
-      <h3>Disclaimer</h3>
+      <h1>Disclaimer</h1>
 
       {impressumData.map(data => {
         return (

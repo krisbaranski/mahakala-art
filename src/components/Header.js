@@ -28,7 +28,7 @@ const Header = () => {
       <Link to="/" className="logo">
         <img src={logo} alt="mahakala-art" />
       </Link>
-      <div className="mobile">
+      {/* <div className="mobile">
         <ul>
           <li>
             <Link to="/about">About</Link>
@@ -45,7 +45,7 @@ const Header = () => {
         </ul>
         <i className="menu fa fa-bars"></i>
         <i className="close fas fa-times"></i>
-      </div>
+      </div> */}
     </header>
   );
 };

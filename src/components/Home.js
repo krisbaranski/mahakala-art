@@ -10,7 +10,7 @@ const Home = () => {
         <img src={mahakala} alt="Mahakala Statue, Black Coat, Ber Nag Chen" />
       </div>
       <div className="home_text">
-        <h3>Mahakala</h3>
+        <h1>Mahakala</h1>
         <p>Black Coat (eng) Ber Nag Chen (tib)</p>
         <p>44cm height, plaster casting, acrylic</p>
         <br />

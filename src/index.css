@@ -18,7 +18,7 @@ body {
 
 /* FONTS */
 
-h3 {
+h1 {
   font-size: 1.6rem;
   font-weight: bold;
   line-height: 2rem;
@@ -26,7 +26,7 @@ h3 {
   margin-bottom: 10px;
 }
 
-h5 {
+h2 {
   font-size: 1.1rem;
   font-weight: bold;
   padding-bottom: 10px;
@@ -229,12 +229,12 @@ span {
 }
 
 .construction a {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
 .order {
-  background-color: #d65f1a3b;
+  background-color: #d65f1a30;
   margin-left: 15px;
   padding: 6px 12px;
   border-radius: 7px;

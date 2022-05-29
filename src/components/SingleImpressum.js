@@ -3,7 +3,7 @@ import React from 'react';
 const SingleImpressum = props => {
   return (
     <div>
-      <h5>{props.title}</h5>
+      <h2>{props.title}</h2>
       <p>{props.content}</p>
       <p>{props.id}</p>
     </div>

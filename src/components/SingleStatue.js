@@ -6,7 +6,7 @@ const SingleStatue = props => {
       <img src={props.image} alt="" className="col" />
       <section className="col">
         <ul className="statue_info">
-          <h5>{props.title}</h5>
+          <h2>{props.title}</h2>
           <li>{props.statueDescription}</li>
           <li>{props.paintedBy}</li>
           <li>{props.heightAndYear}</li>

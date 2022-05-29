@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const DesktopMenu = () => {
   return (
-    <div className="desktop">
+    <header className="header">
       <ul className="nav">
         <li>
           <Link to="/about">About</Link>
@@ -18,7 +18,7 @@ const DesktopMenu = () => {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
-    </div>
+    </header>
   );
 };
 

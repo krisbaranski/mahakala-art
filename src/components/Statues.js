@@ -34,13 +34,13 @@ import statueData from '../data/statueData';
 const Statues = () => {
   return (
     <div className="container">
-      <h3>
+      <h1>
         Statues
         <p>
           Here are presented statue projects that i realised for buddhist
           Centres and collectors worldwide:
         </p>
-      </h3>
+      </h1>
 
       {statueData
         .map(statue => {

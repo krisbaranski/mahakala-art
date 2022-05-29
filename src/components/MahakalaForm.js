@@ -5,14 +5,14 @@ import maha from '../img/mahakala_108b.jpg';
 const MahakalaForm = () => {
   return (
     <div className="container">
-      <h3>
+      <h1>
         Mahakala form
         <p>
           The main purpose of this mahakala form is to inspire many people with
           the physical representation of protective qualities of the enlightened
           mind.
         </p>
-      </h3>
+      </h1>
 
       <section className="row">
         <p className="col">
