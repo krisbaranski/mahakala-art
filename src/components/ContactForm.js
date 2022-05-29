@@ -6,7 +6,8 @@ const ContactForm = props => {
   return (
     <div className="container">
       <p className="contact construction">
-        If you have any questions, requests or orders, you are welcome to
+        If you have any questions, requests or would like to place an order, you
+        are welcome to
         <br />
         <MailTo className="order" />
       </p>
