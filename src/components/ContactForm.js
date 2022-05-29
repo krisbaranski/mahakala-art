@@ -1,4 +1,6 @@
 import React from 'react';
+import Download from './Download';
+import MailTo from './MailTo';
 
 const ContactForm = props => {
   return (
@@ -6,12 +8,14 @@ const ContactForm = props => {
       <p className="contact construction">
         If you have any questions, requests or orders, you are welcome to
         <br />
-        <a href="mailto:info@mahakala-art.com" className="contact order">
-          contact me
-        </a>
+        <MailTo className="order" />
       </p>
-      <br />
-      <br />
+      <p className="contact construction">
+        For further informations, concerning ordering the Mahakala form, please
+        download
+        <br />
+        <Download className="order" />
+      </p>
       {/* <h5 className="contact construction">
         !!! CONTACT FORM UNDER CONSTRUCTION !!!
       </h5> */}
