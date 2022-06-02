@@ -6,17 +6,17 @@ const ContactForm = props => {
   return (
     <div className="container">
       <p className="contact construction">
-        If you have any questions, requests or would like to place an order, you
-        are welcome to
-        <br />
-        <MailTo className="order" />
-      </p>
-      <p className="contact construction">
         For further informations, concerning ordering the Mahakala form, please
         download
         <br />
         <Download className="order" />
       </p>
+      <p className="contact construction">
+        If you still have questions or requests, you are welcome to
+        <br />
+        <MailTo className="order" />
+      </p>
+
       {/* <h5 className="contact construction">
         !!! CONTACT FORM UNDER CONSTRUCTION !!!
       </h5> */}
