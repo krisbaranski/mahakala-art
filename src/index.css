@@ -235,6 +235,7 @@ span {
 
 .order {
   background-color: #d65f1a30;
+  line-height: 30px;
   margin-left: 15px;
   padding: 6px 12px;
   border-radius: 7px;
