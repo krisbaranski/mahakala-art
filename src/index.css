@@ -224,21 +224,17 @@ span {
 
 .construction {
   margin-top: 70px;
-  line-height: 30px;
+  line-height: 25px;
   max-width: 500px;
-}
-
-.construction a {
-  font-size: 1rem;
-  text-transform: uppercase;
 }
 
 .order {
   background-color: #d65f1a30;
-  line-height: 30px;
-  margin-left: 15px;
-  padding: 6px 12px;
-  border-radius: 7px;
+  line-height: 40px;
+  padding: 7px 12px;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -252,7 +248,7 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 /* MEDIA QUERY */
