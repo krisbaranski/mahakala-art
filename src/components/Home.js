@@ -15,7 +15,7 @@ const Home = () => {
         <p>44cm height, plaster casting, acrylic</p>
         <br />
         <p>
-          available to
+          available to{' '}
           <Link to="/contact" className="order">
             order
           </Link>

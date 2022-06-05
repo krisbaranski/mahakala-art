@@ -238,7 +238,7 @@ span {
   cursor: pointer;
 }
 
-.order:hover {
+.order a .order:hover {
   background-color: #a17e08;
   color: #fff;
   transform: scale(0.96);
