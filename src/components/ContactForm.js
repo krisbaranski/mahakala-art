@@ -12,7 +12,7 @@ const ContactForm = props => {
       <Download className="order" />
       <br />
       <p className="contact construction">
-        If you still have questions or requests, you are welcome to
+        For questions or requests:
         <br />
       </p>
       <MailTo className="order" />

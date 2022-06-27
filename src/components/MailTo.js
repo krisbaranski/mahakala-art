@@ -8,7 +8,7 @@ export default function MailTo() {
   return (
     <div className="home_text">
       <Link to="#" onClick={sendMail} className="order">
-        contact me
+        contact
       </Link>
     </div>
   );
