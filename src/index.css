@@ -1,4 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300;700&display=swap');
+/* lato-regular - latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./fonts/lato-v23-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+    url('./fonts/lato-v23-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('./fonts/lato-v23-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('./fonts/lato-v23-latin-regular.woff')
+      format('woff'),
+    /* Modern Browsers */ url('./fonts/lato-v23-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */ url('./fonts/lato-v23-latin-regular.svg#Lato')
+      format('svg'); /* Legacy iOS */
+}
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
 
