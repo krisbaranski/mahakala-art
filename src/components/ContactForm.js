@@ -1,6 +1,5 @@
 import React from 'react';
 import Download from './Download';
-import MailTo from './MailTo';
 
 const ContactForm = props => {
   return (
@@ -12,45 +11,39 @@ const ContactForm = props => {
       <Download className="order" />
       <br />
       <p className="contact construction">
-        For questions or requests:
+        For questions or requests, please fill out the contact form below or
+        send me an{' '}
+        <a style={{ color: 'orange' }} href="mailto:kris.baranski@web.de">
+          EMAIL
+        </a>
         <br />
       </p>
-      <MailTo className="order" />
 
-      {/* <h5 className="contact construction">
-        !!! CONTACT FORM UNDER CONSTRUCTION !!!
-      </h5> */}
-      {/*       
-      Please fill out
-        the contact form below
       <form className="container" onSubmit={props.handleSubmit} method="POST">
         <div className="form-group">
-          <label>Email</label>
+          <div className="form-group">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="name"
+              autocomplete="off"
+              required
+            />
+          </div>
           <input
             type="email"
             className="form-control"
             aria-describedby="emailHelp"
-            placeholder="your email adress"
+            placeholder="email adress"
             autocomplete="off"
             required
           />
         </div>
         <div className="form-group">
-          <label>Subject</label>
-          <input
-            type="text"
-            className="form-control"
-            placeholder="your subject"
-            autocomplete="off"
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label>Message</label>
           <textarea
             className="form-control"
             rows="10"
-            placeholder="your message"
+            placeholder="message"
             autocomplete="off"
             required
           ></textarea>
@@ -61,109 +54,8 @@ const ContactForm = props => {
           </button>
         </div>
       </form>
-       */}
     </div>
   );
 };
-
-// export default ContactForm;
-// import React from 'react';
-
-// class ContactForm extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       email: '',
-//       name: '',
-//       message: '',
-//     };
-//   }
-
-//   handleSubmit(event) {
-//     event.preventDefault();
-
-//     fetch('http://localhost:3002/send', {
-//       method: 'POST',
-//       body: JSON.stringify(this.state),
-//       headers: {
-//         Accept: 'application/json',
-//         'Content-Type': 'application/json',
-//       },
-//     })
-//       .then(response => response.json())
-//       .then(response => {
-//         if (response.status === 'success') {
-//           alert('Message Sent.');
-//           this.resetForm();
-//         } else if (response.status === 'fail') {
-//           alert('Message failed to send.');
-//         }
-//       });
-//   }
-
-//   render() {
-//     return (
-//       <div className="container">
-//         <form
-//           id="contact-form"
-//           onSubmit={this.handleSubmit.bind(this)}
-//           method="POST"
-//         >
-//           <div className="form-group">
-//             <label htmlFor="exampleInputEmail1">Email</label>
-//             <input
-//               type="email"
-//               className="form-control"
-//               aria-describedby="emailHelp"
-//               value={this.state.email}
-//               placeholder="your email address"
-//             autocomplete = 'off';
-//               onChange={this.onEmailChange.bind(this)}
-//             />
-//           </div>
-//           <div className="form-group">
-//             <label htmlFor="subject">Subject</label>
-//             <input
-//               type="text"
-//               className="form-control"
-//               value={this.state.subject}
-//               placeholder="your subject"
-//             autocomplete = 'off';
-//               onChange={this.onSubjectChange.bind(this)}
-//             />
-//           </div>
-
-//           <div className="form-group">
-//             <label htmlFor="message">Message</label>
-//             <textarea
-//               className="form-control"
-//               rows="5"
-//               value={this.state.message}
-//               placeholder="your message"
-//             autocomplete = 'off';
-//               onChange={this.onMessageChange.bind(this)}
-//             />
-//           </div>
-//           <button type="submit" className="btn btn-primary">
-//             Submit
-//           </button>
-//         </form>
-//       </div>
-//     );
-//   }
-
-//   onEmailChange(event) {
-//     this.setState({ email: event.target.value });
-//   }
-
-//   onSubjectChange(event) {
-//     this.setState({ subject: event.target.value });
-//   }
-
-//   onMessageChange(event) {
-//     this.setState({ message: event.target.value });
-//   }
-// }
-// }
 
 export default ContactForm;
