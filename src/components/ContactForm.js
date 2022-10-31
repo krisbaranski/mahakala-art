@@ -4,43 +4,49 @@ import Download from './Download';
 const ContactForm = props => {
   return (
     <div className="container">
-      <p className="contact construction">
+      <p className="contact">
         For further informations, concerning ordering the Mahakala form, please
         download
       </p>
       <Download className="order" />
       <br />
-      <p className="contact construction">
+      <p className="contact">
         For questions or requests, please fill out the contact form below or
         send me an{' '}
-        <a style={{ color: 'orange' }} href="mailto:kris.baranski@web.de">
+        <a
+          style={{ color: 'orange', textAlign: 'center' }}
+          href="mailto:kris.baranski@web.de"
+        >
           EMAIL
         </a>
         <br />
       </p>
 
-      <form className="container" onSubmit={props.handleSubmit} method="POST">
+      <form
+        className="contact"
+        method="POST"
+        action="https://getform.io/f/219f4d8e-2e04-442c-b7a0-52d9b5536fb7"
+      >
         <div className="form-group">
-          <div className="form-group">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="name"
-              autocomplete="off"
-              required
-            />
-          </div>
+          <input
+            type="text"
+            placeholder="name"
+            name="name"
+            className="form-control"
+            autocomplete="off"
+            required
+          />
           <input
             type="email"
+            name="email"
             className="form-control"
             aria-describedby="emailHelp"
             placeholder="email adress"
             autocomplete="off"
             required
           />
-        </div>
-        <div className="form-group">
           <textarea
+            name="message"
             className="form-control"
             rows="10"
             placeholder="message"
@@ -50,7 +56,7 @@ const ContactForm = props => {
         </div>
         <div className="form-group">
           <button type="submit" className="btn btn-primary">
-            Submit
+            Send
           </button>
         </div>
       </form>

@@ -67,20 +67,20 @@ button {
 
 /* Links */
 
-.link,
+Link,
 a {
   font-size: 1.1rem;
   color: #a17e08;
   text-decoration: none;
 }
 
-.link,
+Link,
 a:hover {
   color: #d65f1a;
-  transform: scale(1.03);
+  transform: scale(1.06);
 }
 
-.link,
+Link,
 a:active {
   color: #b61111;
   transform: scale(1.06);
@@ -222,12 +222,6 @@ span {
   transform: scale(0.98);
 }
 
-.construction {
-  margin-top: 70px;
-  line-height: 25px;
-  max-width: 500px;
-}
-
 .order {
   background-color: #d65f1a30;
   line-height: 40px;
@@ -249,6 +243,13 @@ span {
   flex-direction: column;
   justify-content: center;
   margin: 10px auto;
+  max-width: 500px;
+}
+
+.form-group {
+  margin-top: 70px;
+  line-height: 25px;
+  max-width: 500px;
 }
 
 /* MEDIA QUERY */
