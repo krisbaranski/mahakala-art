@@ -1,26 +1,19 @@
 {
-  "files": {
-    "main.css": "/static/css/main.6f2b47c7.chunk.css",
-    "main.js": "/static/js/main.608dc841.chunk.js",
-    "main.js.map": "/static/js/main.608dc841.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.436328de.js",
-    "runtime-main.js.map": "/static/js/runtime-main.436328de.js.map",
-    "static/js/2.0327427a.chunk.js": "/static/js/2.0327427a.chunk.js",
-    "static/js/2.0327427a.chunk.js.map": "/static/js/2.0327427a.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.6f2b47c7.chunk.css.map": "/static/css/main.6f2b47c7.chunk.css.map",
-    "static/js/2.0327427a.chunk.js.LICENSE.txt": "/static/js/2.0327427a.chunk.js.LICENSE.txt",
-    "static/media/MahakalaForm.b777d995.pdf": "/static/media/MahakalaForm.b777d995.pdf",
-    "static/media/index.css": "/static/media/lato-v23-latin-regular.ec530704.svg",
-    "static/media/logo.8f97f4c4.png": "/static/media/logo.8f97f4c4.png",
-    "static/media/mahakala_108b.4e3c65fe.jpg": "/static/media/mahakala_108b.4e3c65fe.jpg",
-    "static/media/mahakala_web.4409c8f7.png": "/static/media/mahakala_web.4409c8f7.png",
-    "static/media/many.95ab6154.jpg": "/static/media/many.95ab6154.jpg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.436328de.js",
-    "static/js/2.0327427a.chunk.js",
-    "static/css/main.6f2b47c7.chunk.css",
-    "static/js/main.608dc841.chunk.js"
-  ]
+  "main.css": "/static/css/main.5329fc0e.chunk.css",
+  "main.js": "/static/js/main.4bc3903e.chunk.js",
+  "main.js.map": "/static/js/main.4bc3903e.chunk.js.map",
+  "static/js/1.5daefe37.chunk.js": "/static/js/1.5daefe37.chunk.js",
+  "static/js/1.5daefe37.chunk.js.map": "/static/js/1.5daefe37.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/media/index.css": "/static/media/lato-v23-latin-regular.9087e4a6.svg",
+  "static/media/logo.png": "/static/media/logo.ec4226ab.png",
+  "static/media/mahakala_web.png": "/static/media/mahakala_web.6c421a03.png",
+  "static/media/many.jpg": "/static/media/many.806e98c9.jpg",
+  "static/media/mahakala_108b.jpg": "/static/media/mahakala_108b.50954e9f.jpg",
+  "static/media/MahakalaForm.pdf": "/static/media/MahakalaForm.be9ab0e8.pdf",
+  "static/css/main.5329fc0e.chunk.css.map": "/static/css/main.5329fc0e.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.2b5f1a32ce279fd8edcaf98d533881db.js": "/precache-manifest.2b5f1a32ce279fd8edcaf98d533881db.js",
+  "service-worker.js": "/service-worker.js"
 }
