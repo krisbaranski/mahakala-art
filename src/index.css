@@ -2,7 +2,7 @@
 @font-face {
   font-family: 'Lato';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300, 400, 500, 600, 700, 800, 900;
   src: url('./fonts/lato-v23-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
     url('./fonts/lato-v23-latin-regular.eot?#iefix') format('embedded-opentype'),
@@ -82,20 +82,20 @@ button {
 
 /* Links */
 
-Link,
+link,
 a {
   font-size: 1.1rem;
   color: #a17e08;
   text-decoration: none;
 }
 
-Link,
+link,
 a:hover {
   color: #d65f1a;
   transform: scale(1.06);
 }
 
-Link,
+link,
 a:active {
   color: #b61111;
   transform: scale(1.06);
