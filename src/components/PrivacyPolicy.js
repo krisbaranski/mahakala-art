@@ -1,10 +1,16 @@
 import React from 'react';
 import SinglePolicy from './SinglePolicy';
 import policyData from '../data/policyData';
+import { motion } from 'framer-motion';
 
 const PrivacyPolicy = () => {
   return (
-    <div className="container">
+    <motion.div
+      className="container"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transition: { duration: 0.5 } }}
+    >
       <h1>
         Datenschutzerklärung
         <p>Allgemeiner Hinweis und Pflichtinformationen:</p>
@@ -20,7 +26,7 @@ const PrivacyPolicy = () => {
           />
         );
       })}
-    </div>
+    </motion.div>
   );
 };
 

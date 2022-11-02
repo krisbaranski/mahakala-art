@@ -1,10 +1,16 @@
 import React from 'react';
 import many from '../img/many.jpg';
 import maha from '../img/mahakala_108b.jpg';
+import { motion } from 'framer-motion';
 
 const MahakalaForm = () => {
   return (
-    <div className="container">
+    <motion.div
+      className="container"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transition: { duration: 0.5 } }}
+    >
       <h1>
         Mahakala form
         <p>
@@ -52,7 +58,7 @@ const MahakalaForm = () => {
         quality <em> Thangkas</em> (tib. for traditional roll paintings) of
         Mahakala in Karma Gadhri Tradition.
       </p>
-    </div>
+    </motion.div>
   );
 };
 

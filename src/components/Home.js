@@ -2,10 +2,16 @@ import React from 'react';
 import mahakala from '../img/mahakala_web.png';
 import { Link } from 'react-router-dom';
 // import mahakala from 'https://images.ctfassets.net/x9ncw0vro2xo/Z66r1CvcuDADvxcFlcQgf/d0c0615c6653e87175dc7cc22fb8ca9c/mahakala-web.png';
+import { motion } from 'framer-motion';
 
 const Home = () => {
   return (
-    <section className="container">
+    <motion.section
+      className="container"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transition: { duration: 0.5 } }}
+    >
       <div className="home">
         <img src={mahakala} alt="Mahakala Statue, Black Coat, Ber Nag Chen" />
       </div>
@@ -21,7 +27,7 @@ const Home = () => {
           </Link>
         </p>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

@@ -1,9 +1,15 @@
 import React from 'react';
 import Download from './Download';
+import { motion } from 'framer-motion';
 
 const ContactForm = props => {
   return (
-    <div className="container">
+    <motion.div
+      className="container"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0, transition: { duration: 0.5 } }}
+    >
       <p className="contact">
         For further informations, concerning ordering the Mahakala form, please
         download
@@ -60,7 +66,7 @@ const ContactForm = props => {
           </button>
         </div>
       </form>
-    </div>
+    </motion.div>
   );
 };
 
