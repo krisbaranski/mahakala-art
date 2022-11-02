@@ -1,19 +1,23 @@
 {
-  "main.css": "/static/css/main.5329fc0e.chunk.css",
-  "main.js": "/static/js/main.4bc3903e.chunk.js",
-  "main.js.map": "/static/js/main.4bc3903e.chunk.js.map",
-  "static/js/1.5daefe37.chunk.js": "/static/js/1.5daefe37.chunk.js",
-  "static/js/1.5daefe37.chunk.js.map": "/static/js/1.5daefe37.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/index.css": "/static/media/lato-v23-latin-regular.9087e4a6.svg",
-  "static/media/logo.png": "/static/media/logo.ec4226ab.png",
-  "static/media/mahakala_web.png": "/static/media/mahakala_web.6c421a03.png",
-  "static/media/many.jpg": "/static/media/many.806e98c9.jpg",
-  "static/media/mahakala_108b.jpg": "/static/media/mahakala_108b.50954e9f.jpg",
-  "static/media/MahakalaForm.pdf": "/static/media/MahakalaForm.be9ab0e8.pdf",
-  "static/css/main.5329fc0e.chunk.css.map": "/static/css/main.5329fc0e.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.2b5f1a32ce279fd8edcaf98d533881db.js": "/precache-manifest.2b5f1a32ce279fd8edcaf98d533881db.js",
-  "service-worker.js": "/service-worker.js"
+  "files": {
+    "main.css": "/static/css/main.71f7c022.css",
+    "main.js": "/static/js/main.af745368.js",
+    "static/media/MahakalaForm.pdf": "/static/media/MahakalaForm.b777d99527a45396dc7c.pdf",
+    "static/media/mahakala_web.png": "/static/media/mahakala_web.4409c8f7537a75efc039.png",
+    "static/media/mahakala_108b.jpg": "/static/media/mahakala_108b.4e3c65fe925cca5e7ffa.jpg",
+    "static/media/many.jpg": "/static/media/many.95ab61541cad99e43084.jpg",
+    "static/media/logo.png": "/static/media/logo.8f97f4c4651be9b7e284.png",
+    "static/media/lato-v23-latin-regular.svg": "/static/media/lato-v23-latin-regular.ec5307044f561bd0e346.svg",
+    "static/media/lato-v23-latin-regular.ttf": "/static/media/lato-v23-latin-regular.cf2315b218ab9f01217d.ttf",
+    "static/media/lato-v23-latin-regular.woff": "/static/media/lato-v23-latin-regular.292725486219768e6225.woff",
+    "static/media/lato-v23-latin-regular.eot": "/static/media/lato-v23-latin-regular.280b6b4991a4c5157d14.eot",
+    "static/media/lato-v23-latin-regular.woff2": "/static/media/lato-v23-latin-regular.be36596da218e1eec01c.woff2",
+    "index.html": "/index.html",
+    "main.71f7c022.css.map": "/static/css/main.71f7c022.css.map",
+    "main.af745368.js.map": "/static/js/main.af745368.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71f7c022.css",
+    "static/js/main.af745368.js"
+  ]
 }
