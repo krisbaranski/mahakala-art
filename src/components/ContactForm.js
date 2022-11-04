@@ -1,5 +1,5 @@
 import React from 'react';
-import Download from './Download';
+import PDF from '../data/MahakalaForm.pdf';
 import { motion } from 'framer-motion';
 
 const ContactForm = props => {
@@ -14,18 +14,16 @@ const ContactForm = props => {
         For further informations, concerning ordering the Mahakala form, please
         download
       </p>
-      <Download className="order" />
+      <a className="nav" target="_blank" rel="noopener noreferrer" href={PDF}>
+        MahakalaForm.pdf
+      </a>
       <br />
       <p className="contact">
         For questions or requests, please fill out the contact form below or
         send me an{' '}
-        <a
-          style={{ color: 'orange', textAlign: 'center' }}
-          href="mailto:kris.baranski@web.de"
-        >
+        <a className="nav" href="mailto:info@mahakala-art.com">
           EMAIL
         </a>
-        <br />
       </p>
 
       <form
