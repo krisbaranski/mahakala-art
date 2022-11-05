@@ -17,14 +17,13 @@ const ContactForm = props => {
       <a className="nav" target="_blank" rel="noopener noreferrer" href={PDF}>
         MahakalaForm.pdf
       </a>
-      <br />
       <p className="contact">
         For questions or requests, please fill out the contact form below or
-        send me an{' '}
-        <a className="nav" href="mailto:info@mahakala-art.com">
-          EMAIL
-        </a>
+        send me an
       </p>
+      <a className="nav" href="mailto:info@mahakala-art.com">
+        EMAIL
+      </a>
 
       <form
         className="contact"
