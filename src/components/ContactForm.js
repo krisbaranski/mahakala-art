@@ -28,7 +28,7 @@ const ContactForm = props => {
       <form
         className="contact"
         method="POST"
-        action="https://getform.io/f/219f4d8e-2e04-442c-b7a0-52d9b5536fb7"
+        action="https://getform.io/f/1b6874c8-8532-47be-bd1d-d1e8491ffc1d"
       >
         <div className="form-group">
           <input
