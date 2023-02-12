@@ -1,6 +1,6 @@
 import React from 'react';
-import many from '../img/many.jpg';
-import maha from '../img/mahakala_108b.jpg';
+import many from '../assets/img/many.jpg';
+import maha from '../assets/img/mahakala_108.jpg';
 import { motion } from 'framer-motion';
 
 const MahakalaForm = () => {
@@ -35,7 +35,7 @@ const MahakalaForm = () => {
           form is ready, a negative mould is made. This allows to multiply that
           form with the same precision as the original one.
         </p>
-        <img className="col" src={maha} alt="mahakala forms" />
+        <img className="col" src={maha} alt="original mahakala form" />
       </section>
 
       <section className="row">
@@ -49,7 +49,7 @@ const MahakalaForm = () => {
           acrylic colours are well adapted. I’m using very good quality acrylic
           for painting the form and real gold powder for “opening” the eyes.
         </p>
-        <img className="col" src={many} alt="mahakala forms" />
+        <img className="col" src={many} alt="casted plaster forms" />
       </section>
 
       <p>
