@@ -3,12 +3,18 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer>
       <div className="nav">
-        <Link to="/impressum">Disclaimer | Impressum</Link>
-        <Link to="/privacypolicy">Privacy Policy</Link>
+        <Link c lassName="nav" to="/impressum">
+          Impressum
+        </Link>
+        <Link className="nav" to="/privacypolicy">
+          Privacy Policy
+        </Link>
       </div>
-      <p className="nav">Copyright &copy; {new Date().getFullYear()}</p>
+      <div className="nav">
+        <p className="nav">&copy; Mahakala-Art {new Date().getFullYear()}</p>
+      </div>
     </footer>
   );
 };
