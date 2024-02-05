@@ -13,8 +13,8 @@
     "framer-motion": "^7.6.4",
     "n": "^9.0.0",
     "npm": "^8.19.2",
-    "react": "^16.x",
-    "react-dom": "^16.x",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.0-pre.0",
     "react-scripts": "^5.0.1",
     "react-spring": "^8.x",
@@ -66,8 +66,6 @@
     "fsevents": "^2.3.2"
   },
   "peerDependencies": {
-    "react": "^16.x",
-    "react-dom": "^16.x",
     "react-spring": "^8.x",
     "styled-components": "^5.x"
   }
