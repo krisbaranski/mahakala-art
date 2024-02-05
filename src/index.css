@@ -209,6 +209,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   margin: 30px;
+  margin-inline: auto;
   padding: 0 20px;
   color: #d65f1a;
 }
