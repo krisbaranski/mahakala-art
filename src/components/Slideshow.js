@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { useTransition, animated } from 'react-spring';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 import '../index.css';
 
 const Slideshow = ({ slides }) => {

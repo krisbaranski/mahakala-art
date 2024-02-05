@@ -11,8 +11,9 @@ const About = () => {
     >
       <h1>
         Mahakala
+        <p>(sanskr.)</p>
         <p>
-          <em>Black Coat</em> (eng) <em>Ber Nag Chen</em> (tib)
+          <em>Black Coat</em> (eng.), <em>Bernag Chen</em> (tib.)
         </p>
       </h1>
       <p>

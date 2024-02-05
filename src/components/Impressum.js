@@ -11,7 +11,10 @@ const Impressum = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.5 } }}
     >
-      <h1>Disclaimer</h1>
+      <h1>Impressum</h1>
+      <p style={{ marginBottom: '40px' }}>
+        Krzysztof Baranski <br /> Charlottenburger Straße 30 <br /> 13086 Berlin
+      </p>
 
       {impressumData.map(data => {
         return (

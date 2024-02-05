@@ -44,15 +44,14 @@ const Home = () => {
       </div>
       <div className="home_text">
         <h1>Mahakala</h1>
-        <p>Black Coat (eng) Ber Nag Chen (tib)</p>
-        <p>44cm height, plaster casting, acrylic</p>
-        <br />
-        <p>
-          available to{' '}
+        <p>(sanskr.)</p>
+        <p>Black Coat (eng.), Bernag Chen (tib.)</p>
+        <p>44cm height, plaster casting, acrylic paint</p>
+        <div style={{ marginTop: '40px' }}>
           <Link to="/contact" className="order">
-            order
+            to order
           </Link>
-        </p>
+        </div>
       </div>
     </motion.section>
   );

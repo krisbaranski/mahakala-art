@@ -3,21 +3,21 @@ import { Link } from 'react-router-dom';
 
 const DesktopMenu = () => {
   return (
-    <header className="header">
-      <ul className="nav">
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/form">Form</Link>
-        </li>
-        <li>
-          <Link to="/statues">Statues</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
+    <header>
+      <div className="nav">
+        <Link className="nav" to="/about">
+          About
+        </Link>
+        <Link className="nav" to="/form">
+          Form
+        </Link>
+        <Link className="nav" to="/statues">
+          Statues
+        </Link>
+        <Link className="nav" to="/contact">
+          Contact
+        </Link>
+      </div>
     </header>
   );
 };
