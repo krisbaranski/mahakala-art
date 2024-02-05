@@ -8,7 +8,7 @@ const Footer = () => {
         <Link to="/impressum">Disclaimer | Impressum</Link>
         <Link to="/privacypolicy">Privacy Policy</Link>
       </div>
-      <p className="nav">Copyright &copy; 2021</p>
+      <p className="nav">Copyright &copy; {new Date().getFullYear()}</p>
     </footer>
   );
 };
