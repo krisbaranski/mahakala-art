@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="nav">
-        <Link c lassName="nav" to="/impressum">
+        <Link className="nav" to="/impressum">
           Impressum
         </Link>
         <Link className="nav" to="/privacypolicy">

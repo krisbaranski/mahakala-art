@@ -32,16 +32,15 @@ const Menu = () => {
       </div>
 
       {/* Mobile menu */}
-      <div onClick={handleClick} className="mobile-visibility">
+      <div className="mobile-visibility">
         {/* Logo */}
-        <div>
-          <Link to="/" className={nav ? 'hidden' : 'mobile-logo'}>
-            <img src={logo} alt="mahakala-art" loading="lazy" />
-          </Link>
-        </div>
-        {/* Hamburger */}
 
-        <div className="mobile-visibility">
+        <Link to="/" exact className={!nav ? 'mobile-logo' : 'hidden'}>
+          <img src={logo} alt="mahakala-art" loading="lazy" />
+        </Link>
+
+        {/* Hamburger */}
+        <div onClick={handleClick} className="mobile-visibility">
           {!nav ? <FaBars className="fa" /> : <FaTimes className="fa" />}
         </div>
       </div>
@@ -49,7 +48,7 @@ const Menu = () => {
       <div className="mobile-visibility">
         <ul className={!nav ? 'hidden' : 'hamburger'}>
           <li className="mobile">
-            <Link to="/" className="menu-logo">
+            <Link onClick={handleClick} to="/" className="menu-logo">
               <img src={logo} alt="mahakala-art" loading="lazy" />
             </Link>
           </li>
