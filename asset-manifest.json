@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8a8fd036.css",
-    "main.js": "/static/js/main.9194aa52.js",
+    "main.js": "/static/js/main.ff1cda3f.js",
     "static/media/MahakalaForm.pdf": "/static/media/MahakalaForm.e89311b65a0da5600821.pdf",
     "static/media/mahakala_108.jpg": "/static/media/mahakala_108.4e3c65fe925cca5e7ffa.jpg",
     "static/media/many.jpg": "/static/media/many.95ab61541cad99e43084.jpg",
@@ -13,10 +13,10 @@
     "static/media/lato-v23-latin-regular.woff2": "/static/media/lato-v23-latin-regular.be36596da218e1eec01c.woff2",
     "index.html": "/index.html",
     "main.8a8fd036.css.map": "/static/css/main.8a8fd036.css.map",
-    "main.9194aa52.js.map": "/static/js/main.9194aa52.js.map"
+    "main.ff1cda3f.js.map": "/static/js/main.ff1cda3f.js.map"
   },
   "entrypoints": [
     "static/css/main.8a8fd036.css",
-    "static/js/main.9194aa52.js"
+    "static/js/main.ff1cda3f.js"
   ]
 }
