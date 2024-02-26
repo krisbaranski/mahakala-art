@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7be8279b.css",
-    "main.js": "/static/js/main.569fc596.js",
+    "main.css": "/static/css/main.8a8fd036.css",
+    "main.js": "/static/js/main.9194aa52.js",
     "static/media/MahakalaForm.pdf": "/static/media/MahakalaForm.e89311b65a0da5600821.pdf",
     "static/media/mahakala_108.jpg": "/static/media/mahakala_108.4e3c65fe925cca5e7ffa.jpg",
     "static/media/many.jpg": "/static/media/many.95ab61541cad99e43084.jpg",
@@ -12,11 +12,11 @@
     "static/media/lato-v23-latin-regular.eot": "/static/media/lato-v23-latin-regular.280b6b4991a4c5157d14.eot",
     "static/media/lato-v23-latin-regular.woff2": "/static/media/lato-v23-latin-regular.be36596da218e1eec01c.woff2",
     "index.html": "/index.html",
-    "main.7be8279b.css.map": "/static/css/main.7be8279b.css.map",
-    "main.569fc596.js.map": "/static/js/main.569fc596.js.map"
+    "main.8a8fd036.css.map": "/static/css/main.8a8fd036.css.map",
+    "main.9194aa52.js.map": "/static/js/main.9194aa52.js.map"
   },
   "entrypoints": [
-    "static/css/main.7be8279b.css",
-    "static/js/main.569fc596.js"
+    "static/css/main.8a8fd036.css",
+    "static/js/main.9194aa52.js"
   ]
 }
