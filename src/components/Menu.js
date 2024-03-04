@@ -8,10 +8,21 @@ const Menu = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
+  // change nav color when scrolling
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    window.scrollY >= 20 ? setColor(true) : setColor(false);
+  };
+
+  window.addEventListener('scroll', changeColor);
+
   return (
     <div>
       {/* Desktop menu */}
-      <div className="hidden">
+      <div
+        onScroll={changeColor}
+        className={color ? 'menu-scroll hidden' : 'menu-fixed hidden'}
+      >
         <Link to="/" className="logo">
           <img src={logo} alt="mahakala-art" loading="lazy" />
         </Link>
@@ -32,10 +43,16 @@ const Menu = () => {
       </div>
 
       {/* Mobile menu */}
-      <div className="mobile-visibility">
+      <div
+        className={
+          color
+            ? 'menu-scroll mobile-visibility'
+            : 'menu-fixed mobile-visibility'
+        }
+      >
         {/* Logo */}
 
-        <Link to="/" exact className={!nav ? 'mobile-logo' : 'hidden'}>
+        <Link to="/" className={!nav ? 'mobile-logo' : 'hidden'}>
           <img src={logo} alt="mahakala-art" loading="lazy" />
         </Link>
 
