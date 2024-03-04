@@ -263,6 +263,43 @@ footer p {
   line-height: 25px;
   max-width: 500px;
 }
+.animateIn {
+  animation: 1s fadeIn ease-in;
+}
+
+/*                     */
+/* Slideshow Animation */
+/*                     */
+.FadeInAndOut {
+  /* width: 200px;
+  height: 200px;
+  background: red; */
+  -webkit-animation: fadeinout 5s ease-in-out;
+  animation: fadeinout 5s ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  15%,
+  85% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  15%,
+  85% {
+    opacity: 1;
+  }
+}
 
 /*             */
 /* MEDIA QUERY */
