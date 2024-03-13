@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../logo.png';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
@@ -11,13 +11,59 @@ const Menu = () => {
   // change nav color when scrolling
   const [color, setColor] = useState(false);
   const changeColor = () => {
-    window.scrollY >= 20 ? setColor(true) : setColor(false);
+    window.scrollY >= 50 ? setColor(true) : setColor(false);
   };
 
   window.addEventListener('scroll', changeColor);
 
+  // Trigger on scroll event
+  const [scrollData, setScrollData] = useState({
+    y: 0,
+    lastY: 0,
+  });
+
+  // Show menubar while scrolling down, otherwise hide
+  const [showNav, setShowNav] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollData(prevState => {
+        return {
+          y: window.scrollY,
+          lastY: prevState.y,
+        };
+      });
+    };
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (scrollData.y > 200) {
+      setShowNav(true);
+    } else {
+      setShowNav(false);
+    }
+
+    if (scrollData.lastY > scrollData.y) {
+      setShowNav(true);
+    } else {
+      setShowNav(false);
+    }
+
+    if (scrollData.lastY === scrollData.y) {
+      setShowNav(true);
+    }
+  }, [scrollData]);
+
   return (
-    <div>
+    // Show and hide navbar at scroll event
+    <div
+      className={showNav ? 'menu_scroll show_menu' : 'menu_scroll hide_menu'}
+    >
       {/* Desktop menu */}
       <div
         onScroll={changeColor}
@@ -61,6 +107,7 @@ const Menu = () => {
           {!nav ? <FaBars className="fa" /> : <FaTimes className="fa" />}
         </div>
       </div>
+
       {/* Dropdown menu */}
       <div className="mobile-visibility">
         <ul className={!nav ? 'hidden' : 'hamburger'}>
