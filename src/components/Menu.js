@@ -61,9 +61,7 @@ const Menu = () => {
 
   return (
     // Show and hide navbar at scroll event
-    <div
-      className={showNav ? 'menu_scroll show_menu' : 'menu_scroll hide_menu'}
-    >
+    <div className={showNav ? 'menu_scroll' : 'menu_scroll hide_menu'}>
       {/* Desktop menu */}
       <div
         onScroll={changeColor}
@@ -104,13 +102,14 @@ const Menu = () => {
 
         {/* Hamburger */}
         <div onClick={handleClick} className="mobile-visibility">
-          {!nav ? <FaBars className="fa" /> : <FaTimes className="fa" />}
+          {!nav ? <FaBars className="fa" /> : ''}
         </div>
       </div>
 
       {/* Dropdown menu */}
       <div className="mobile-visibility">
         <ul className={!nav ? 'hidden' : 'hamburger'}>
+          <FaTimes className="fa" onClick={handleClick} />
           <li className="mobile">
             <Link onClick={handleClick} to="/" className="menu-logo">
               <img src={logo} alt="mahakala-art" loading="lazy" />
