@@ -54,7 +54,7 @@ const Menu = () => {
       setShowNav(false);
     }
 
-    if (scrollData.lastY === scrollData.y) {
+    if (scrollData.lastY === scrollData.y || scrollData.y === 0) {
       setShowNav(true);
     }
   }, [scrollData]);
