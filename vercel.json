@@ -1,5 +1,10 @@
 {
   "buildCommand": "npm run build",
-  "framework": "null",
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "https://www.mahakala-art.com/"
+    }
+  ]
 }
